@@ -67,9 +67,9 @@ TUTORIAL = environ.get('TUTORIAL', '') # Tutorial video link for opening shortli
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 
 #Channel & Group link 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+kF6kYm_7o_wxM2E1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movietrixbotrequest')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/AF_Cinemas')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/af_mhakal')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/desaibhikhu')
 
 
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
