@@ -31,12 +31,12 @@ CODE = (environ.get('CODE', 'https://graph.org/file/e419f801841c2ee3db0fc.jpg'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5640295091 7170452349').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002030723564').split()] #Channel id for auto indexing ( make sure bot is admin )
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002030723564')) #Log channel id ( make sure bot is admin )
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002086541598').split()] #Channel id for auto indexing ( make sure bot is admin )
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002417525913')) #Log channel id ( make sure bot is admin )
 DEENDAYAL_MOVIE_UPDATE_CHANNEL = int(environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL', '0')) #Notification of those who verify will be sent to your channel. Enter the ID of the channel you want to send notification to here.
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002030723564')) # add premium logs channel id
-auth_channel = environ.get('AUTH_CHANNEL', '--1002281015574') #Channel / Group Id for force sub ( make sure bot is admin )
-DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002030723564').split()]
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002417525913')) # add premium logs channel id
+auth_channel = environ.get('AUTH_CHANNEL', '1002070573213') #Channel / Group Id for force sub ( make sure bot is admin )
+DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002417525913').split()]
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '0') # support group id ( make sure bot is admin )
 reqst_channel = environ.get('REQST_CHANNEL_ID', '0') # request channel id ( make sure bot is admin ).
 
@@ -56,7 +56,7 @@ CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla
 # Verify
 VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
 DEENDAYAL_VERIFY_EXPIRE = int(environ.get('DEENDAYAL_VERIFY_EXPIRE', 2)) # Add time in hours
-DEENDAYAL_VERIFIED_LOG = int(environ.get('DEENDAYAL_VERIFIED_LOG', '-1002030723564')) #Log channel id ( make sure bot is admin )
+DEENDAYAL_VERIFIED_LOG = int(environ.get('DEENDAYAL_VERIFIED_LOG', '-1002417525913')) #Log channel id ( make sure bot is admin )
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/howto_open_short_link/12') # How to open tutorial link for verification
 
 # Shortner 
@@ -67,9 +67,9 @@ TUTORIAL = environ.get('TUTORIAL', '') # Tutorial video link for opening shortli
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 
 #Channel & Group link 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movietrixbotrequest')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/AF_Cinemas')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/desaibhikhu')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/af_mhakal')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Joker_offical0')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/I_am_Owner_04')
 
 
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
