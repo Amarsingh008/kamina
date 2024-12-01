@@ -1987,7 +1987,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[           
             InlineKeyboardButton('⚜️ Movie Group ⚜️', url="https://t.me/groupchatrequest"),
             InlineKeyboardButton('☔ Contact ☔', url="https://t.me/I_am_Owner_04")
-        ],
+        ],[
             InlineKeyboardButton('🔥 Movie Update Notification 🔥', url="https://t.me/Joker_offical0"),
             InlineKeyboardButton('👮 Update Channel 👮', url="https://t.me/Joker_offical0")
         ],[
