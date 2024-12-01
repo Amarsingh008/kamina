@@ -1986,10 +1986,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "channels":
         buttons = [[           
             InlineKeyboardButton('⚜️ Movie Group ⚜️', url="https://t.me/groupchatrequest"),
-            InlineKeyboardButton('☔ Contact ☔', url="https://t.me/desaibhikhu")
-        ],[
-            InlineKeyboardButton('🔥 Movie Update Notification 🔥', url="https://t.me/af_cinemas"),
-            InlineKeyboardButton('👮 Update Channel 👮', url="https://t.me/af_cinemas")
+            InlineKeyboardButton('☔ Contact ☔', url="https://t.me/I_am_Owner_04")
+        ],
+            InlineKeyboardButton('🔥 Movie Update Notification 🔥', url="https://t.me/Joker_offical0"),
+            InlineKeyboardButton('👮 Update Channel 👮', url="https://t.me/Joker_offical0")
         ],[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='start')
         ]] 
@@ -2183,7 +2183,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "tele":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/desaibhikhu")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/I_am_Owner_04")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
