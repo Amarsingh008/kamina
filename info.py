@@ -67,7 +67,7 @@ TUTORIAL = environ.get('TUTORIAL', '') # Tutorial video link for opening shortli
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 
 #Channel & Group link 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/af_mhakal')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/groupchatrequest')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Joker_offical0')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/I_am_Owner_04')
 
