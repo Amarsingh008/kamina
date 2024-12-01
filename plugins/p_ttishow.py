@@ -58,7 +58,7 @@ async def save_group(bot, message):
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton("📌 ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ 📌", url=f'https://t.me/Af_mhakal')
+                                                                           InlineKeyboardButton("📌 ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ 📌", url=f'https://t.me/I_am_Owner_04')
                                                                          ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
@@ -83,7 +83,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-                  InlineKeyboardButton("📌 ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ 📌", url="https://t.me/Af_mhakal")
+                  InlineKeyboardButton("📌 ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ 📌", url="https://t.me/I_am_Owner_04")
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -122,7 +122,7 @@ async def disable_chat(bot, message):
     await message.reply('Chat Successfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('📌 ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ 📌', url=f'https://t.me/Af_mhakal')
+            InlineKeyboardButton('📌 ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ 📌', url=f'https://t.me/I_am_Owner_04')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
