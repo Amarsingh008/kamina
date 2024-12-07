@@ -54,16 +54,16 @@ CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla
 
 
 # Verify
-VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
+VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
 DEENDAYAL_VERIFY_EXPIRE = int(environ.get('DEENDAYAL_VERIFY_EXPIRE', 2)) # Add time in hours
 DEENDAYAL_VERIFIED_LOG = int(environ.get('DEENDAYAL_VERIFIED_LOG', '-1002417525913')) #Log channel id ( make sure bot is admin )
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/howto_open_short_link/12') # How to open tutorial link for verification
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/how_to_downlod3/14') # How to open tutorial link for verification
 
 # Shortner 
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'krownlinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '4dbeb3373153a8396dd23d2e9da53c8f24f4b449')
-TUTORIAL = environ.get('TUTORIAL', '') # Tutorial video link for opening shortlink website 
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'urlstox.com ')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'e50e8659702fa49f3cb1194e12cfc2e4ee0687ef')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_downlod3/14') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 
 #Channel & Group link 
